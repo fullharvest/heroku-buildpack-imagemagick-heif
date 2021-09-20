@@ -1,7 +1,9 @@
 heroku-buildpack-imagemagick-heif
 =================================
 
-This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for vendoring the ImageMagick  with HEIF support binaries into your project.
+Forked from a 3rd-party Heroku buildpack to install ImageMagick 7 on FH's heroku-18 servers. Not guarenteed to work when the app is upgraded to a new Heroku stack.
+
+This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for vendoring the ImageMagick  with HEIF support binaries into your project. 
 
 This one works with [Heroku stack](https://devcenter.heroku.com/articles/stack) `heroku-18`.
 
